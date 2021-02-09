@@ -1,0 +1,384 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo 2', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-family: 'Poppins', cursive;
+}.nav{
+    width:100%;
+    height:5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+.logo{
+    cursor: pointer;
+    position: absolute;
+    left:5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins","";
+}
+.logo:hover{
+    background-color:white;
+}
+.search{
+    padding:0 1rem; 
+    border-radius: 50px;
+    border: 3px solid grey;
+}
+.search input{
+    border:none;
+    outline:none;
+    font-size: 1rem;
+    width:20rem;
+}
+.search-btn{
+    background:none;
+    outline: none;
+    border:none;
+    padding:.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.person{
+    position: absolute;
+    right:15rem;
+    cursor: pointer;
+    top:50%;
+    transform: translate(0,-50%);
+    font-size: 1.2rem;
+}
+.person:hover{
+    color: #737d76;
+}
+.cart{
+    position: absolute;
+    right:10rem;
+    cursor: pointer;
+    top:50%;
+    transform: translate(0,-50%);
+    font-size: 1.2rem;
+}
+.cart:hover{
+    color: #777c78;
+}
+.sign-in{
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    right:2.1rem;
+}
+.sign-in button{
+    background: black;
+    color:white;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    height:1.7rem;
+    width:4.5rem;
+    border-radius: 2px;
+}
+.sign-in button:hover{
+    background-color: #737d76;
+}
+.sign-in button a{
+    color:white;
+}
+.nav a{
+    color:black;
+
+}
+@media(max-width:768){
+    .search{
+        width:30rem;
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .box-1{
+        height:200;
+        width:300;
+        
+    }
+}
+
+/* ---------------------------------- caurosel ------------------------------------ */
+.main-container{
+    position: relative;
+    background:linear-gradient(to top,#dbdbff,#f5f5ff);
+} 
+.main-container h1{
+    position :relative;
+    top:13rem;
+    left:8rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.main-container h3{
+    position: relative;
+    top:14rem;
+    left:8rem;
+    font-weight: 300;
+}
+.main-container img{
+    position: relative;
+    left:-40%;
+    margin-top: -8rem;
+}
+.bttn{
+    position: relative;
+    left:8rem;
+    top:15rem;
+}
+.bttn button{
+    background-color: black;
+    color:white;
+    width:10rem;
+    height:3rem;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#prev{
+    background-color: #737d76;
+}
+#next{
+    background-color: #737d76;
+}
+/* ----------------------------------X- caurosel-X------------------------------------ */
+
+.boxes{
+    width:100%;
+    background-color: white;
+}
+.new-h1{
+    position: relative;
+    top:6rem;
+    left:6.2%;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.boxes p{
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+.boxes h1{
+    font-size: 1.8rem;
+    margin-top:3px;
+    font-weight: 520;
+}
+
+.boxes img{
+    max-width:100%;
+    height:auto;
+}
+.buy-now{
+    height:2rem;
+    width:6rem;
+    background-color:black;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-1{
+    height:20rem;
+    width:34rem;
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 10em;
+    background:linear-gradient(to top,#dbdbff,#f5f5ff);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-1 img{
+    position: relative;
+    top:1.5rem;
+}
+.box-2{
+    height:20rem;
+    width:34rem;
+    float: right;
+    position: relative;
+    margin-right: 80px;
+    margin-top: 10em;
+    background:linear-gradient(to top,#dbdbff,#f5f5ff);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-2 img{
+    position: relative;
+    top:4rem;
+    left:2rem;
+}
+.text {
+    position: absolute;
+    left:50%;
+    top:22%;
+}
+/* ------------------------------------boxes------------------------------ */
+.new-h2{
+    position: relative;
+    top:3rem;
+    left:4rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.off{
+    height:100vh;
+    background:linear-gradient(to top,#dbdbff,#f5f5ff);
+    width:100%;
+    margin-top:7rem;
+}
+.off-boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    margin:5rem 1.5rem 2em 1.5rem;
+}
+.off-box-0{
+    background: white;
+    height:25rem;
+    width:30rem;
+    margin:0 1rem;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.off-box-1{
+    background: white;
+    height:25rem;
+    width:30rem;
+    margin:0 1rem;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.off-box-2{
+    background: white;
+    height:25rem;
+    width:30rem;
+    margin:0 1rem;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.off-box-3{
+    background: white;
+    height:25rem;
+    width:30rem;
+    margin:0 1rem;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.off-img-half-1,.off-img-half-2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.off-boxes h1{
+    font-size: 1.5rem;
+    padding-left:1rem;
+}
+.off-boxes img{
+    height:19rem;
+    width:19rem;
+    object-fit:  cover ;
+}
+.btn-more{
+    background-color: black;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    height: 2rem;
+    width:8rem;
+    outline: none;
+    border: none;
+    position: relative;
+}
+.btn-more a{
+    color:white;
+}
+/* .btn-more::after{
+    content: '';
+    position: absolute;
+    transform: scaleX(0.075);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
+ }
+/* .off-box-0:hover,.off-box-1:hover,.off-box-2:hover, *//*.off-box-3:hover .btn-more::after{
+    transform: scaleX(1);
+} */
+/*.btn-more a{
+    color:white;
+} */
+
+ /* -----------------------------------------X-cards-X----------------------- */
+/*--------------------------------------footer------------------------------ */
+.foot{
+    background:black;
+    color:white;
+}.content{
+    display:flex;
+    justify-content: space-evenly;
+}
+.content-4 p{
+    width:22em;
+}
+.social-icons ul{
+    display:flex;
+    flex-direction: row;
+    width:6rem;
+    justify-content: space-between;
+    margin-left: -2rem;
+    font-size: 1em;
+}
+.email{
+    background:white;
+    display: inline;
+}
+.email input{
+    border:none;
+    background:none;
+    outline:none;
+    padding: 1em;
+}
+.email button{
+    background: #d0d0ff;
+    border:none;
+    outline:none;
+    height:1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.end-sec{
+    position: relative;
+    display: flex;
+    top:2rem;
+    background: black;
+}
+.end-sec h5{
+    margin-left: 2rem;
+    font-weight: 300;
+    margin-right: auto;
+}
+.end-sec h3{
+    margin-left: 8rem;
+    font-weight: 500;
+}
+.social-icons li{
+    cursor: pointer;
+}
+.content h3{
+    font-weight: 500;
+
+}
